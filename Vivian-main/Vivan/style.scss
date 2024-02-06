@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul, li{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    max-width: 1640px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+button{
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+.cont{
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto; 
+}
+
+
+@import"__navbar.scss";
+@import"__gerl.scss";
+@import"__chiziq.scss";
+@import"__header.scss";
+@import"__box.scss";
+@import"__men.scss";
+@import"__div.scss";
+@import"__apple.scss";
+@import"__ass.scss";
+@import"__old.scss";
+@import"__boy.scss";
+@import"__max.scss";
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.apple{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.apple1{
+    display: flex;
+    align-items: center;
+}
+.apple11{
+    width: 798px;
+    height: 672px;
+}
+.apple2{
+    width:720px ;
+    height: 672px;
+    background: #124E3B;
+}
+.apple1 h1{
+    padding-top: 164px;
+    padding-left: 120px;
+    width: 565px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+}
+.apple1 p{
+    padding-top: 38px;
+    padding-left: 120px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+width: 460px;
+}
+.apple21{
+    margin-top: 62px;
+    display: flex;
+    gap: 20px;
+    margin-left: 120px;
+}
+.apple21img{
+    width: 127px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #0A0A0A;
+background: #FFF;
+}
+.apple21 img{
+    margin: 9px 13px;
+}
+.apple3{
+    display: flex;
+    position: relative;
+}
+.apple3 img:first-child{
+    display: flex;
+
+    position: absolute;
+    bottom: -165px;
+    right: -319px;
+    z-index: 1;
+}
+.apple3 img:nth-child(2){
+    display: flex;
+    position: absolute;
+    bottom: -165px;
+    right: -319px;
+    z-index: 1;
+}
